@@ -1,0 +1,43 @@
+<includeonly>
+== About this image ==
+<div id="image-all" class="card-group my-2">
+<div id="image-relationships" class="card text-dark bg-light">
+<div class="card-header">Relationships</div>
+<div class="card-body">
+<div class="card-text">
+;Place: [[Place::{{{Place|}}}]]
+;People: {{#arraymap:{{{People|}}}|,|x|[[Person::x]]}}
+;Keyword relationships
+{{{Keyword relationships|}}}
+</div>
+</div>
+</div>
+<div id="image-information" class="card text-dark bg-light">
+<div class="card-header">Information</div>
+<div class="card-body">
+<div class="card-text">
+;Creator: [[Creator::{{{Creator|}}}]]
+;Date: {{{Creation date|}}}
+;Title: [[Title::{{{Title|}}}]]
+;Medium: [[Medium::{{{Medium|}}}]]
+;Dimensions: [[Dimensions::{{{Dimensions|}}}]]
+</div>
+</div>
+</div>
+<div id="image-reference" class="card text-dark bg-light">
+<div class="card-header">Reference</div>
+<div class="card-body">
+<div class="card-text">
+;Date of Publication: [[Date of Publication::{{{Date of Publication|}}}]]
+;Volume: [[Volume::{{{Volume|}}}]]
+;Edition: [[Edition::{{{Edition|}}}]]
+;Page: [[Pages::{{{Page|}}}]]
+;Figure: [[Figure::{{{Figure|}}}]]
+;Repository: [[Repository::{{{Repository|}}}]]
+;Zotero ID: [[Reference ID::{{{Reference ID|}}}]]
+</div>
+</div>
+</div>
+</div>
+[[Category:Images]]__NOEDITSECTION__
+</includeonly>

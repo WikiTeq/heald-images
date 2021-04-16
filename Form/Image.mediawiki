@@ -1,0 +1,83 @@
+<noinclude>
+This is the "Image" form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+{{#forminput:form=Image|autocomplete on category=Images}}
+
+</noinclude><includeonly>
+<div id="wikiPreview" style="display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;"></div>
+{{{for template|Image}}}
+== Relationships ==
+{| class="formtable"
+! Place: 
+| {{{field|Place}}}
+|-
+! People: 
+| {{{field|People}}}
+|-
+! Keyword relationships: 
+| {{{field|Keyword relationships|holds template}}}
+|}
+
+== Information ==
+{| class="formtable"
+! Creator: 
+| {{{field|Creator}}}
+|-
+! Date: 
+| {{{field|Creation date|holds template}}}
+|-
+! Title: 
+| {{{field|Title}}}
+|-
+! Medium: 
+| {{{field|Medium}}}
+|-
+! Dimensions: 
+| {{{field|Dimensions}}}
+|}
+
+== Reference ==
+{| class="formtable"
+! Date of Publication: 
+| {{{field|Date of Publication}}}
+|-
+! Volume: 
+| {{{field|Volume}}}
+|-
+! Edition: 
+| {{{field|Edition}}}
+|-
+! Page: 
+| {{{field|Page}}}
+|-
+! Figure: 
+| {{{field|Figure}}}
+|-
+! Repository: 
+| {{{field|Repository}}}
+|-
+! Reference ID: 
+| {{{field|Reference ID}}}
+|}
+{{{end template}}}
+
+{{{for template|Keyword relationship|embed in field=Image[Keyword relationships]|multiple}}}
+{| class="formtable"
+! Keyword relationship: 
+| {{{field|Keyword relationship|property=Keyword relationship}}}
+|-
+! Keyword: 
+| {{{field|Keyword|property=Keyword|input type=text with autocomplete|values from category=Keywords}}}
+|}
+{{{end template}}}
+
+{{{for template|Date|embed in field=Image[Creation date]|multiple|maximum instances=1}}}
+{{Form:Date}}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text|rows=10}}}
+</includeonly>
