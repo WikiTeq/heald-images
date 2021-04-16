@@ -4,8 +4,8 @@
     "language": "en",
     "url": "https:\/\/github.com\/WikiWorks\/Page-Exchange-packages",
     "packages": {
-        "1618611103": {
-            "globalID": "1618611103",
+        "1618611288": {
+            "globalID": "1618611288",
             "description": null,
             "version": "0.1",
             "pages": [
@@ -23,26 +23,6 @@
                     "name": "Date of Publication",
                     "namespace": "SMW_NS_PROPERTY",
                     "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/Property%2FDate%20of%20Publication.mediawiki"
-                },
-                {
-                    "name": "Date",
-                    "namespace": "PF_NS_FORM",
-                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/Form%2FDate.mediawiki"
-                },
-                {
-                    "name": "Date",
-                    "namespace": "NS_TEMPLATE",
-                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/Template%2FDate.mediawiki"
-                },
-                {
-                    "name": "Concurrence",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/Property%2FConcurrence.mediawiki"
-                },
-                {
-                    "name": "Circa",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/Property%2FCirca.mediawiki"
                 },
                 {
                     "name": "Pages",
