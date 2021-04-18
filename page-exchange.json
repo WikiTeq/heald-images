@@ -1,11 +1,11 @@
 {
-    "publisher": "PagePort",
-    "author": "PagePort",
+    "publisher": "Ike Hecht",
+    "author": "Ike Hecht",
     "language": "en",
-    "url": "https:\/\/github.com\/WikiWorks\/Page-Exchange-packages",
+    "url": "https:\/\/github.com\/WikiTeq\/heald-images",
     "packages": {
-        "1618611288": {
-            "globalID": "1618611288",
+        "HEALD Images": {
+            "globalID": "heald-images",
             "description": null,
             "version": "0.1",
             "pages": [
