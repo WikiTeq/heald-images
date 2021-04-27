@@ -7,6 +7,8 @@ Contains the Images data structure for the HEALD wiki
 * PageForms
 * PageExchange
 * SemanticMediawiki
+* WikiTeq Date package https://github.com/WikiTeq/date-structure
+* Chameleon 3
 
 # Setup
 
