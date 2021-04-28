@@ -113,6 +113,11 @@
                     "name": "Image",
                     "namespace": "NS_TEMPLATE",
                     "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/Template%2FImage.mediawiki"
+                },
+                {
+                    "name": "HealdImages.js",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/MediaWiki\/HealdImages.js.mediawiki"
                 }
             ],
             "requiredExtensions": []
