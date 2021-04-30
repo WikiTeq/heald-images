@@ -34,7 +34,7 @@ if a page with that name already exists, you will be sent to a form to edit that
 ! Medium: 
 | {{{field|Medium}}}
 |-
-! Dimensions: 
+! Dimensions: {{#info: Height x Width in the form XX x ZZ in. (aa x bb cm)}}
 | {{{field|Dimensions}}}
 |}
 
