@@ -1,4 +1,4 @@
-<includeonly>
+<includeonly><div class="about-image-section">
 == About this image ==
 <div id="image-all" class="card-group my-2">
 <div id="image-relationships" class="card text-dark bg-light">
@@ -39,6 +39,7 @@
 </div>
 </div>
 </div>
+</div><!--- /about-image-section -->
 Download an {{#ask:
 [[{{FULLPAGENAME}}]]
 |?Place
