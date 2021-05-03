@@ -77,7 +77,7 @@ if a page with that name already exists, you will be sent to a form to edit that
 {{Form:Date}}
 {{{end template}}}
 
-'''Free text:'''
+'''Text field:'''
 
 {{{standard input|free text|rows=10}}}
 </includeonly>
