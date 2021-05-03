@@ -40,5 +40,24 @@
 </div>
 </div>
 </div><!--- /about-image-section -->
+Download an {{#ask:
+[[{{FULLPAGENAME}}]]
+|?Place
+|?Person
+|?Keyword record
+|?Creator
+|?Title
+|?Medium
+|?Dimensions
+|?Date of Publication
+|?Volume
+|?Edition
+|?Pages
+|?Figure
+|?Repository
+|?Reference ID
+|?Has subobject
+|format=RDF
+}} export
 [[Category:Images]]__NOEDITSECTION__
 </includeonly>
