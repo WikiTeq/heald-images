@@ -10,28 +10,28 @@ if a page with that name already exists, you will be sent to a form to edit that
 {{{for template|Image}}}
 == Relationships ==
 {| class="formtable"
-! Place: 
+! Place:
 | {{{field|Place}}}
 |-
-! People: 
+! People:
 | {{{field|People}}}
 |-
-! Keyword relationships: 
+! Keyword relationships:
 | {{{field|Keyword relationships|holds template}}}
 |}
 
 == Information ==
 {| class="formtable"
-! Creator: 
+! Creator:
 | {{{field|Creator}}}
 |-
-! Date: 
-| {{{field|Creation date|holds template}}}
+! Date:
+| {{Form:Date|Prefix=Creation}}
 |-
-! Title: 
+! Title:
 | {{{field|Title}}}
 |-
-! Medium: 
+! Medium:
 | {{{field|Medium}}}
 |-
 ! Dimensions: {{#info: Height x Width in the form XX x ZZ in. (aa x bb cm)}}
@@ -40,41 +40,37 @@ if a page with that name already exists, you will be sent to a form to edit that
 
 == Reference ==
 {| class="formtable"
-! Date of Publication: 
-| {{{field|Date of Publication}}}
+! Date of Publication:
+| {{Form:Date|Prefix=Publication}}
 |-
-! Volume: 
+! Volume:
 | {{{field|Volume}}}
 |-
-! Edition: 
+! Edition:
 | {{{field|Edition}}}
 |-
-! Page: 
+! Page:
 | {{{field|Page}}}
 |-
-! Figure: 
+! Figure:
 | {{{field|Figure}}}
 |-
-! Repository: 
+! Repository:
 | {{{field|Repository}}}
 |-
-! Reference ID: 
+! Reference ID:
 | {{{field|Reference ID}}}
 |}
 {{{end template}}}
 
 {{{for template|Keyword relationship|embed in field=Image[Keyword relationships]|multiple}}}
 {| class="formtable"
-! Keyword relationship: 
+! Keyword relationship:
 | {{{field|Keyword relationship|property=Keyword relationship}}}
 |-
-! Keyword: 
+! Keyword:
 | {{{field|Keyword|property=Keyword|input type=text with autocomplete|values from category=Keywords}}}
 |}
-{{{end template}}}
-
-{{{for template|Date|embed in field=Image[Creation date]|multiple|maximum instances=1}}}
-{{Form:Date}}
 {{{end template}}}
 
 '''Text field:'''

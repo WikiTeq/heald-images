@@ -17,7 +17,17 @@
 <div class="card-body">
 <div class="card-text">
 ;Creator: [[Creator::{{{Creator|}}}]]
-;Date: {{{Creation date|}}}
+;Date: {{Date
+         |Creation
+         |Date={{{Creation Date|}}}
+         |Circa={{{Creation Circa|}}}
+         |Concurrence={{{Creation Concurrence|}}}
+         |Questionable={{{Creation Questionable|}}}
+         |EndDate={{{Creation Date End|}}}
+         |EndCirca={{{Creation Circa End|}}}
+         |EndConcurrence={{{Creation Concurrence End|}}}
+         |EndQuestionable={{{Creation Questionable End|}}}
+}}
 ;Title: [[Title::{{{Title|}}}]]
 ;Medium: [[Medium::{{{Medium|}}}]]
 ;Dimensions: [[Dimensions::{{{Dimensions|}}}]]
@@ -28,7 +38,17 @@
 <div class="card-header">Reference</div>
 <div class="card-body">
 <div class="card-text">
-;Date of Publication: [[Date of Publication::{{{Date of Publication|}}}]]
+;Date of Publication: {{Date
+                        |Publication
+                        |Date={{{Publication Date|}}}
+                        |Circa={{{Publication Circa|}}}
+                        |Concurrence={{{Publication Concurrence|}}}
+                        |Questionable={{{Publication Questionable|}}}
+                        |EndDate={{{Publication Date End|}}}
+                        |EndCirca={{{Publication Circa End|}}}
+                        |EndConcurrence={{{Publication Concurrence End|}}}
+                        |EndQuestionable={{{Publication Questionable End|}}}
+}}
 ;Volume: [[Volume::{{{Volume|}}}]]
 ;Edition: [[Edition::{{{Edition|}}}]]
 ;Page: [[Pages::{{{Page|}}}]]
