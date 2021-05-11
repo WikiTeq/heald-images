@@ -117,10 +117,21 @@
                 {
                     "name": "HealdImages.js",
                     "namespace": "NS_MEDIAWIKI",
-                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/MediaWiki\/HealdImages.js.mediawiki"
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/MediaWiki%2FHealdImages.js.mediawiki"
+                },
+                {
+                    "name": "File",
+                    "namespace": "NS_PROJECT",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/Project%2FFile.mediawiki"
+                },
+                {
+                    "name": "Inscription",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/Property%2FInscription.mediawiki"
                 }
             ],
             "requiredExtensions": []
         }
     }
 }
+

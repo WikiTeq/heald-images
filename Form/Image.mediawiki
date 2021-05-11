@@ -31,6 +31,9 @@ if a page with that name already exists, you will be sent to a form to edit that
 ! Title:
 | {{{field|Title}}}
 |-
+! Inscription:
+| {{{field|Inscription|input type=textarea}}}
+|-
 ! Medium:
 | {{{field|Medium}}}
 |-
