@@ -31,7 +31,8 @@
 ;Title: [[Title::{{{Title|}}}]]
 ;Inscription: {{#set:Inscription={{{Inscription|}}}}}{{{Inscription|}}}
 ;Medium: [[Medium::{{{Medium|}}}]]
-;Dimensions: [[Dimensions::{{{Dimensions|}}}]]
+;Dimensions: [[Dimensions::{{{Dimensions|}}}]]<!--
+-->{{#set: Caption={{{Caption|}}}}} 
 </div>
 </div>
 </div>
