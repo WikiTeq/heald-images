@@ -63,7 +63,7 @@
 </div>
 </div><!--- /about-image-section -->
 Download an {{#ask:
-[[{{FULLPAGENAME}}]]
+[[{{FULLPAGENAME}}]] OR [[-Has subobject::{{FULLPAGENAME}}]] [[Date::+]]
 |?Place
 |?Person
 |?Keyword record
@@ -78,7 +78,14 @@ Download an {{#ask:
 |?Figure
 |?Repository
 |?Reference ID
-|?Has subobject
+|?Date
+|?Circa
+|?Concurrence
+|?Questionable
+|?EndDate
+|?EndCirca
+|?EndConcurrence
+|?EndQuestionable
 |format=RDF
 }} export
 [[Category:Images]]__NOEDITSECTION__
