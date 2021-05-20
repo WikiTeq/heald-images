@@ -8,9 +8,11 @@ Contains the Images data structure for the HEALD wiki
 * PageExchange
 * SemanticMediawiki
 * WikiTeq Date package https://github.com/WikiTeq/date-structure
+* Wikiteq Heald image gallery package https://github.com/WikiTeq/mediawiki-pages-ImageGallery-heald
 * Chameleon 3
 
 # Setup
 
 * Add the following line to your LocalSettings.php `$wgPageExchangePackageFiles[] = 'https://raw.githubusercontent.com/WikiTeq/heald-images/master/page-exchange.json';`
 * Navigate to `Special:Packages` and install the package
+

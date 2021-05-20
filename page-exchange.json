@@ -50,9 +50,29 @@
                     "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/Property%2FEdition.mediawiki"
                 },
                 {
+                    "name": "Main category",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/Property%2FMain%20category.mediawiki"
+                },
+                {
+                    "name": "Showcase main Category",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/Property%2FShowcase%20main%Category.mediawiki"
+                },
+                {
+                    "name": "Showcase essay Page",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/Property%2FShowcase%20essay%20Page.mediawiki"
+                },
+                {
                     "name": "Images",
                     "namespace": "NS_CATEGORY",
                     "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/Category%2FImages.mediawiki"
+                },
+                {
+                    "name": "Main Categories",
+                    "namespace": "NS_CATEGORY",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/Category%2FMain%20Categories.mediawiki"
                 },
                 {
                     "name": "Keyword",
@@ -115,6 +135,26 @@
                     "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/Template%2FImage.mediawiki"
                 },
                 {
+                    "name": "Showcase main",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/Template%2FShowcase%20main.mediawiki"
+                },
+                {
+                    "name": "Showcase essay",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/Template%2FShowcase%20essay.mediawiki"
+                },
+                {
+                    "name": "Enumeration.css",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/MediaWiki%2FEnumeration.css.mediawiki"
+                },
+                {
+                    "name": "FormImage.css",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/MediaWiki%2FFormImage.css.mediawiki"
+                },
+                {
                     "name": "HealdImages.js",
                     "namespace": "NS_MEDIAWIKI",
                     "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/MediaWiki%2FHealdImages.js.mediawiki"
@@ -130,7 +170,14 @@
                     "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/Property%2FInscription.mediawiki"
                 }
             ],
-            "requiredExtensions": []
+            "requiredExtensions": [
+		"SemanticMediaWiki",
+		"PageForms"
+	    ],
+            "requiredPackages": [
+		"WikiTeq/heald-image-gallery",
+		"WikiTeq/DateStructure"
+	    ]
         }
     }
 }
