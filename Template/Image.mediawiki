@@ -71,9 +71,9 @@ Download an {{#ask:
 |?Keyword record
 |?Creator
 |?Title
+|?Inscription
 |?Medium
 |?Dimensions
-|?Date of Publication
 |?Volume
 |?Edition
 |?Pages
