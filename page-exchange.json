@@ -185,11 +185,6 @@
                     "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/Project%2FFile.mediawiki"
                 },
                 {
-                    "name": "NoImage with caption.png",
-                    "namespace": "NS_FILE",
-                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/File%2FNoImage%20with%20caption.png.mediawiki"
-                },
-                {
                     "name": "Inscription",
                     "namespace": "SMW_NS_PROPERTY",
                     "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/Property%2FInscription.mediawiki"
