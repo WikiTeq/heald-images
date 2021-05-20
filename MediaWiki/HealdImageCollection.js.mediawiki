@@ -1,2 +1,5 @@
-	// Adds responsive columns to the SMW filtered format output for the ImageCollection
-	$('.heald-collection .filtered-views-container').addClass('card-columns');
+// Adds responsive columns to the SMW filtered format output for the ImageCollection
+$('.heald-collection .filtered-views-container').addClass('card-columns');
+$(document).ready(function(){
+    $('.filtered-filter.filtered-value').wrapAll( '<div class="d-flex flex-column flex-md-row" />');
+});
