@@ -196,8 +196,8 @@
 		"chameleon"
 	    ],
             "requiredPackages": [
-		"WikiTeq/heald-image-gallery",
-		"WikiTeq/DateStructure"
+		"heald-image-gallery",
+		"DateStructure"
 	    ]
         }
     }
