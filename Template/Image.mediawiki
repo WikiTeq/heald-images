@@ -5,8 +5,8 @@
 <div class="card-header">Relationships</div>
 <div class="card-body">
 <div class="card-text">
-;Place: [[Place::{{{Place|}}}]]
-;People: {{#arraymap:{{{People|}}}|,|x|[[Person::x]]}}
+;Place: [[Place::{{{Place|}}}]]<!-- -->{{#if:{{{Place|}}}|{{#subobject:Creation|Collection filter=Has place}}}}
+;People: {{#arraymap:{{{People|}}}|,|x|[[Person::x]]}}<!-- -->{{#if:{{{People|}}}|{{#subobject:Creation|Collection filter=Has person}}}}
 ;Keyword relationships
 {{{Keyword relationships|}}}<!-- showcases
 -->{{#ifeq:{{{Showcase main|}}} |Yes|{{#set:Showcase main Category={{{Showcase main Category|}}}}}}}<!--
