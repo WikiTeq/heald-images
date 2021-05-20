@@ -145,6 +145,16 @@
                     "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/Template%2FShowcase%20essay.mediawiki"
                 },
                 {
+                    "name": "ImageCollection",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/Template%2FImageCollection.mediawiki"
+                },
+                {
+                    "name": "ImageCollectionItem",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/Template%2FImageCollectionItem.mediawiki"
+                },
+                {
                     "name": "Enumeration.css",
                     "namespace": "NS_MEDIAWIKI",
                     "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/MediaWiki%2FEnumeration.css.mediawiki"
@@ -158,6 +168,16 @@
                     "name": "HealdImages.js",
                     "namespace": "NS_MEDIAWIKI",
                     "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/MediaWiki%2FHealdImages.js.mediawiki"
+                },
+                {
+                    "name": "HealdImageCollection.js",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/MediaWiki%2FHealdImageCollection.js.mediawiki"
+                },
+                {
+                    "name": "HealdImageCollection.css",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/MediaWiki%2FHealdImageCollection.css.mediawiki"
                 },
                 {
                     "name": "File",
