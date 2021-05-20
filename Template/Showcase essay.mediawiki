@@ -1,0 +1,34 @@
+<includeonly><div class="heald-gallery noheader noicon">
+{{#tag:gallery|
+{{#arraymap: {{{1}}},{{{2}}},{{{3}}}
+|,
+|@
+|{{#ask: [[{{#ask:
+	[[File:+]]
+	[[Showcase essay Page::@]]
+	|format=array
+	|order=rand
+	|limit=1
+	|searchlabel=
+}}]]
+|?Caption
+|propsep={{!}}
+|format=array
+|headers=hide
+|outro={{!}}link=@
+}}
+|\n
+}}
+|mode=packed
+|heights=320px
+}}
+</div></includeonly><noinclude>
+;Usage
+<pre>
+{{showcase essay
+|EssayPage1       # mandatory
+|EssayPage2       # mandatory
+|EssayPage3       # mandatory
+}}
+</pre>
+[[Category:Mediawiki-pages-heald-images]]</noinclude>
