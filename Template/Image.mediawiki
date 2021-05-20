@@ -9,8 +9,8 @@
 ;People: {{#arraymap:{{{People|}}}|,|x|[[Person::x]]}}
 ;Keyword relationships
 {{{Keyword relationships|}}}<!-- showcases
--->{{#ifeq:{{{Showcase main|}}} |Yes|{{#set:Showcase main Category={{{Showcase main Category|}}}}}<!--
--->{{#ifeq:{{{Showcase essay|}}}|Yes|{{#set:Showcase essay Page={{{Showcase essay Page|}}}}}
+-->{{#ifeq:{{{Showcase main|}}} |Yes|{{#set:Showcase main Category={{{Showcase main Category|}}}}}}}<!--
+-->{{#ifeq:{{{Showcase essay|}}}|Yes|{{#set:Showcase essay Page={{{Showcase essay Page|}}}}}}}
 </div>
 </div>
 </div>
