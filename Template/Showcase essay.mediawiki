@@ -21,7 +21,7 @@
 |\n
 }}
 |mode=packed
-|heights=320px
+|heights={{{4|320}}}px
 }}
 </div></includeonly><noinclude>
 ;Usage
@@ -30,6 +30,7 @@
 |EssayPage1       # mandatory
 |EssayPage2       # mandatory
 |EssayPage3       # mandatory
+|300              # image height in pixels, defaults to "320" 
 }}
 </pre>
 [[Category:Mediawiki-pages-heald-images]]</noinclude>
