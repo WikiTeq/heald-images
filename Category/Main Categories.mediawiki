@@ -1,10 +1,1 @@
-{{#arraymap: <!--
--->{{#ask:
-     [[Subcategory of::Main Categories]]
-     |link=none
-   }}
- |,
- |@
- |{{#set: Main category={{PAGENAME:@}}}}
-}}
 [[Category:Mediawiki-pages-heald-images]]

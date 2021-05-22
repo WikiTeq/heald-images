@@ -48,10 +48,10 @@ if a page with that name already exists, you will be sent to a form to edit that
 {| class="formtable"
 |-
 ! Main category
-| class="pl-3 checkbox-cell" | {{{field|Showcase main|input type=checkbox|label=Designate image as representative of one of the main categories|show on select=Yes=>showcase-main-category;}}} (<span class="enum-series or">{{#arraymap:{{#ask: [[Main category::+]]|mainlabel=-|headers=hide|?Main category}}|,|@|<span class="enum-el">@</span>|}}</span>)
+| class="pl-3 checkbox-cell" | {{{field|Showcase main|input type=checkbox|label=Designate image as representative of one of the main categories|show on select=Yes=>showcase-main-category;}}} (Keywords, Places, People)
 |- id="showcase-main-category"
 !
-| class="pl-3" | {{{field|Showcase main Category|input type=dropdown|values from property=Main category|mandatory}}}
+| class="pl-3" | {{{field|Showcase main Category|input type=dropdown|values=Keywords,Places,People|mandatory}}}
 |-
 ! Essay page
 | class="pl-3 checkbox-cell" | {{{field|Showcase essay|input type=checkbox|label=Designate image as representative of an essay|show on select=Yes=>showcase-essay-page;}}}
