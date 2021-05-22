@@ -72,7 +72,7 @@ if a page with that name already exists, you will be sent to a form to edit that
 | {{{field|Edition}}}
 |-
 ! Page:
-| {{{field|Page}}}
+| {{{field|Page number}}}
 |-
 ! Figure:
 | {{{field|Figure}}}
