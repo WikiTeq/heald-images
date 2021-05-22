@@ -100,11 +100,6 @@
                     "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/Property%2FPerson.mediawiki"
                 },
                 {
-                    "name": "Page",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/Property%2FPage.mediawiki"
-                },
-                {
                     "name": "Figure",
                     "namespace": "SMW_NS_PROPERTY",
                     "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/Property%2FFigure.mediawiki"

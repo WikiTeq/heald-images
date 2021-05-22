@@ -55,7 +55,7 @@
 }}
 ;Volume: [[Volume::{{{Volume|}}}]]
 ;Edition: [[Edition::{{{Edition|}}}]]
-;Page: [[Pages::{{{Page|}}}]]
+;Page: [[Pages::{{{Page number|}}}]]
 ;Figure: [[Figure::{{{Figure|}}}]]
 ;Repository: [[Repository::{{{Repository|}}}]]
 ;Zotero ID: [[Reference ID::{{{Reference ID|}}}]]
