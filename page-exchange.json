@@ -75,11 +75,6 @@
                     "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/Category%2FMain%20Categories.mediawiki"
                 },
                 {
-                    "name": "Keyword",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/Property%2FKeyword.mediawiki"
-                },
-                {
                     "name": "Reference ID",
                     "namespace": "SMW_NS_PROPERTY",
                     "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/Property%2FReference%20ID.mediawiki"
