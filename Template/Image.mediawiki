@@ -66,10 +66,11 @@
 </div>
 </div><!--- /about-image-section -->
 Download an {{#ask:
-[[{{FULLPAGENAME}}]] OR [[-Has subobject::{{FULLPAGENAME}}]] [[Date::+]]
+[[{{FULLPAGENAME}}]] OR [[-Has subobject::{{FULLPAGENAME}}]] [[Date::+]] OR [[-Has subobject::{{FULLPAGENAME}}]] [[Keyword::+]]
 |?Place
 |?Person
-|?Keyword record
+|?Keyword
+|?Keyword relationship
 |?Creator
 |?Title
 |?Inscription
