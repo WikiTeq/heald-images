@@ -1,7 +1,7 @@
 $( function () {
 	// Finds an image info section and moves it to the bottom
 	var $imageInfo = $( '#mw-content-text .about-image-section' ),
-	    $parserOutput = $( '#mw-content-text > .mw-parser-output' );
+			$parserOutput = $( '#mw-content-text > .mw-parser-output' );
 
 	if ( $imageInfo.length ) {
 		$imageInfo.appendTo( $parserOutput );
@@ -11,9 +11,9 @@ $( function () {
 
 
 function moveFreeTextNs6(){
-       // Move freetext in File namespace HEAL-146
-       var target = $('.ns-6 #file .mw-filepage-resolutioninfo');
-       if(target.length){
-             $('#free-text-section').detach().insertBefore(target);
-       }
+	// Move freetext in File namespace HEAL-146
+	var target = $('.ns-6 #file .mw-filepage-resolutioninfo');
+	if(target.length){
+		$('#free-text-section').detach().insertBefore(target);
+	}
 }
