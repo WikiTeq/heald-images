@@ -141,6 +141,8 @@
 .heald-collection .card .has-person::before,
 .heald-collection .card .has-keyword::before,
 .heald-collection .card .has-place::before,
+input[value="Has person"] + .filtered-value-option-label::before,
+input[value="Has place"] + .filtered-value-option-label::before,
 .has-person::before,
 .has-keyword::before,
 .has-place::before {
@@ -150,15 +152,18 @@
 	height: 24px;
 	background: #fff;
 	background-size: contain;
+        background-repeat: no-repeat;
+	background-size: contain;
+	margin: 0 .25rem 0 -.25rem;
 	border-radius: 50%;
 	opacity: .75;
 	z-index: 2;
 	filter: invert(1);
 }
-.heald-collection .card .has-person::before, .has-person::before {
+.heald-collection .card .has-person::before, .has-person::before, input[value="Has person"] + .filtered-value-option-label::before {
 	background-image: url(https://www.svgrepo.com/show/307863/graphic-designer-creative-draw-artist.svg);
 }
-.heald-collection .card .has-place::before, .has-place::before {
+.heald-collection .card .has-place::before, .has-place::before, input[value="Has place"] + .filtered-value-option-label::before {
 	background-image: url(https://www.svgrepo.com/show/161749/earth-globe.svg);
 }
 .heald-collection .card .has-keyword::before, .has-keyword::before {
