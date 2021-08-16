@@ -143,6 +143,7 @@
 .heald-collection .card .has-place::before,
 input[value="Has person"] + .filtered-value-option-label::before,
 input[value="Has place"] + .filtered-value-option-label::before,
+.filtered-filter:nth-child(2) .filtered-filter-label::before,
 .has-person::before,
 .has-keyword::before,
 .has-place::before {
@@ -166,8 +167,11 @@ input[value="Has place"] + .filtered-value-option-label::before,
 .heald-collection .card .has-place::before, .has-place::before, input[value="Has place"] + .filtered-value-option-label::before {
 	background-image: url(https://www.svgrepo.com/show/161749/earth-globe.svg);
 }
-.heald-collection .card .has-keyword::before, .has-keyword::before {
-	background-image: url(https://www.svgrepo.com/show/166933/key.svg);
+.heald-collection .card .has-keyword::before, .has-keyword::before, .filtered-filter:nth-child(2) .filtered-filter-label::before  {
+	background-image: url(https://www.svgrepo.com/show/166933/key.svg) !important;
+}
+.filtered-filter:nth-child(2) .filtered-filter-label::before  {
+	margin-bottom: -6px;
 }
 @media only screen and (max-width:990px){.heald-collection .card{margin-bottom:30px}
 }
