@@ -183,7 +183,12 @@
                     "name": "Inscription",
                     "namespace": "SMW_NS_PROPERTY",
                     "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/Property%2FInscription.mediawiki"
-                }
+                },
+                {
+                    "name": "A-collection",
+                    "namespace": "NS_WIDGET",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/heald-images\/master\/Widget%2FA-collection.mediawiki"
+                }		    
             ],
             "requiredExtensions": [
 		"SemanticMediaWiki",
