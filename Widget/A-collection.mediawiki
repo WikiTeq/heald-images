@@ -1,4 +1,0 @@
-<a href="<!--{$link}-->" title="<!--{$title}-->">
-<img alt="<!--{$title}-->" src="<!--{$image}-->" decoding="async" loading="lazy" class="img-fluid card-img-top rounded">
-<span class="caption-wrapper"><span class="caption"><!--{$title}--></span></span>
-</a>
