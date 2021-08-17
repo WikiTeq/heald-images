@@ -188,6 +188,7 @@
             "requiredExtensions": [
 		"SemanticMediaWiki",
 		"PageForms",
+		"Widgets",
 		"chameleon"
 	    ],
             "requiredPackages": [
