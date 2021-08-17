@@ -175,5 +175,15 @@ input[value="Has place"] + .filtered-value-option-label::before,
 .filtered-filter:nth-child(2) .filtered-filter-label::before  {
 	margin-bottom: -6px;
 }
+.irs-grid-text {
+	font-size: 15px;
+}
+.irs-to, .irs-from {
+	background-color: #01443e !important;
+}
+.irs-to, .irs-from, .irs-min, .irs-max {
+	font-size: 15px;
+	top: -8px !important;
+}
 @media only screen and (max-width:990px){.heald-collection .card{margin-bottom:30px}
 }
