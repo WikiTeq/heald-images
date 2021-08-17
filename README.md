@@ -7,6 +7,7 @@ Contains the Images data structure for the HEALD wiki
 * PageForms
 * PageExchange
 * SemanticMediawiki
+* Widgets
 * Date package https://github.com/WikiTeq/date-structure
 * Heald image gallery package https://github.com/WikiTeq/mediawiki-pages-ImageGallery-heald
 * Person package https://github.com/WikiTeq/mediawiki-pages-HealdPerson
