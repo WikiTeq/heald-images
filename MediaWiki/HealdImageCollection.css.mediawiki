@@ -22,6 +22,8 @@
 .heald-collection .card a {
 	position: relative;
 	z-index: 0;
+	height: 100%;
+	display: block;
 }
 .heald-collection .card img {
 	transition:all .5s ease 0s;
