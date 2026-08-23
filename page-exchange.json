@@ -191,7 +191,7 @@
 		"chameleon"
 	    ],
             "requiredPackages": [
-		"heald-image-gallery",
+		"HEALD Image Gallery",
 		"DateStructure"
 	    ]
         }
