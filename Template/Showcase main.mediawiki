@@ -10,6 +10,7 @@
     |order=rand
     |limit=1
     |searchlabel=
+    |default=File:NoImage with caption.png
 }}]]
 |?Image Title
 |propsep={{!}}
