@@ -8,7 +8,7 @@ Contains the Images data structure for the HEALD wiki
 * PageExchange
 * SemanticMediawiki
 * Date package https://github.com/WikiTeq/date-structure
-* Heald image gallery package https://github.com/WikiTeq/mediawiki-pages-ImageGallery-heald
+* Heald image gallery package https://github.com/WikiTeq/mediawiki-pages-HealdImageGallery
 * Person package https://github.com/WikiTeq/mediawiki-pages-HealdPerson
 * Chameleon 3
 
